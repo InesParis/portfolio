@@ -2,6 +2,7 @@
   --primary-color: #f7ffc9;
   --secondary-color: #ffcb31;
   --title-color: #307503;
+  --hover-color: #b6d083;
 }
 h1 {
   font-family: "Lato", sans-serif;
@@ -57,4 +58,19 @@ p {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+.btn-branding {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  color: black;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+.btn-branding:hover {
+  background: var(--hover-color);
+  color: black;
+  transform: scale(1.2);
+  transition: ease-in-out;
 }
