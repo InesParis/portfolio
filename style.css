@@ -100,10 +100,11 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+  transition: all 150ms ease-in-out;
 }
 .btn-branding-outline:hover {
   transform: scale(1.1);
-  transition: all 150ms ease-in-out;
+
   color: #80b622;
   border: 1px solid var(--title-color);
 }
@@ -113,4 +114,27 @@ p {
 }
 .content-container {
   padding: 80px 20px;
+}
+
+footer .email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+footer .social-link a {
+  margin: 0 20px;
+  color: var(--title-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-link a:hover {
+  background: var(--hover-color);
+  transform: scale(1.1);
 }
