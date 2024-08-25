@@ -4,6 +4,10 @@
   --title-color: #307503;
   --hover-color: #b6d083;
 }
+nav li.active a {
+  color: var(--title-color);
+  font-weight: bold;
+}
 h1 {
   font-family: "Lato", sans-serif;
   font-weight: 700;
@@ -86,7 +90,7 @@ p {
   background: var(--hover-color);
   color: black;
   transform: scale(1.2);
-  transition: ease-in-out;
+  transition: all 150ms ease-in-out;
 }
 
 .btn-branding-outline {
@@ -99,7 +103,7 @@ p {
 }
 .btn-branding-outline:hover {
   transform: scale(1.1);
-  transition: ease-in-out;
+  transition: all 150ms ease-in-out;
   color: #80b622;
   border: 1px solid var(--title-color);
 }
