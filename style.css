@@ -35,8 +35,9 @@ h2 {
 }
 @media (max-width: 960px) {
   .project-description {
-    padding: 0;
+    padding: 0 !important;
     text-align: center;
+    margin-bottom: none;
   }
 
   .content {
@@ -104,5 +105,5 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 110px 60px;
 }
