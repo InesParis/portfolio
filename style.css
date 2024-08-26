@@ -119,9 +119,14 @@ p {
 footer .email-link {
   display: flex;
   justify-content: center;
-  color: var(--secondary-color);
+  color: black;
   font-size: 28px;
   text-decoration: none;
+}
+footer .email-link:hover {
+  color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+  transform: scale(1.1);
 }
 footer .social-link a {
   margin: 0 20px;
@@ -137,4 +142,12 @@ footer .social-link a {
 footer .social-link a:hover {
   background: var(--hover-color);
   transform: scale(1.1);
+}
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 30px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
 }
