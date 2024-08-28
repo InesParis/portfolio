@@ -74,7 +74,7 @@ p {
 .btn-branding-about {
   background: var(--title-color);
   border-radius: 4px;
-  color: black;
+  color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
