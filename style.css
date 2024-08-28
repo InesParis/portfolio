@@ -38,29 +38,7 @@ a:hover {
   background: var(--primary-color);
   padding: 80px 20px;
 }
-@media (max-width: 900px) {
-  .content {
-    text-align: center;
-    padding: 0;
-  }
-}
-@media (max-width: 960px) {
-  .project-description {
-    padding: 0 !important;
-    text-align: center;
-    margin-bottom: none;
-  }
 
-  .content {
-    margin: 30px;
-  }
-  h1 {
-    font-size: 50px;
-  }
-  h2 {
-    font-size: 35px;
-  }
-}
 .text-center {
   text-align: center !important;
 }
@@ -91,8 +69,23 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+  margin: 0 10px;
 }
-
+.btn-branding-about {
+  background: var(--title-color);
+  border-radius: 4px;
+  color: black;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+  margin: 0 10px;
+}
+.btn-branding-about:hover {
+  background: var(--hover-color);
+  color: black;
+  transform: scale(1.2);
+  transition: all 150ms ease-in-out;
+}
 .btn-branding:hover {
   background: var(--hover-color);
   color: black;
@@ -157,4 +150,27 @@ footer .contact-box {
 }
 footer .contact-box p {
   margin: 0;
+}
+@media (max-width: 900px) {
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+}
+@media (max-width: 960px) {
+  .project-description {
+    padding: 0 !important;
+    text-align: center;
+    margin-bottom: none;
+  }
+
+  .content {
+    margin: 30px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 35px;
+  }
 }
